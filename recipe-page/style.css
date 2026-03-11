@@ -1,0 +1,92 @@
+*{box-sizing: border-box;}
+body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Young Serif";
+}
+
+h1{font-size: 50px;
+
+
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 40px;
+
+}
+p{
+    font-size: 16px;
+    font-family: "Outfit";
+    color: black;
+
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 25px;
+    font-family: "Outfit";
+}
+img{
+    align-items: center;
+    height: auto;
+    max-width: 100%;
+    float: right;
+    border-radius: 10px;
+}
+.boxer {
+    margin: 30px;
+    width: 975px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    border-radius:10px;
+    padding: 50px;
+
+}
+
+
+ul{
+    list-style-position: outside;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Outfit";
+    color: black;
+    line-height:35px;
+}
+ol {
+  color: hsl(14, 45%, 36%);
+  border-radius: 10px;
+  font-family: "Outfit";
+  line-height:25px;
+}
+
+.boxin{
+    padding-left: 30px;
+    background-color:hsl(330, 100%, 98%);
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.boxos{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.boxis{
+    width: 50%;
+    text-align: left;
+}
+hr{
+    width: 100.8%;
+    opacity: 10%;
+}
