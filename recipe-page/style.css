@@ -8,24 +8,23 @@ body {
     font-family: "Young Serif";
 }
 
-h1{font-size: 50px;
-
-
+h1{font-size: 3.125em;
+    
 }
 h2{
     color: hsl(14, 45%, 36%);
-    font-size: 40px;
+    font-size: 2.5em;
 
 }
 p{
-    font-size: 16px;
+    font-size: 1em;
     font-family: "Outfit";
-    color: black;
+    color: hsl(30, 10%, 34%);
 
 }
 h3{
     color: hsl(332, 51%, 32%);
-    font-size: 25px;
+    font-size: 1.5625em;
     font-family: "Outfit";
 }
 img{
@@ -33,45 +32,57 @@ img{
     height: auto;
     max-width: 100%;
     float: right;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .boxer {
-    margin: 30px;
-    width: 975px;
+    margin: 10%;
+    width: 50.8%;
     display: flex;
     flex-direction: column;
     justify-content: left;
     background-color: white;
-    border-radius:10px;
-    padding: 50px;
+    border-radius:30px;
+    padding: 2.56410256410256410256410256410256410256410256410256410256410255%;
 
 }
 
 
-ul{
+.ul1{
     list-style-position: outside;
     display: flex;
     flex-direction: column;
     justify-content: left;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1em;
     font-family: "Outfit";
-    color: black;
-    line-height:35px;
+    line-height:2.1875em;
+    color: hsl(30, 10%, 34%);
+    li::marker {color: hsl(14, 45%, 36%)};
+}
+.ul2{
+    list-style-position: outside;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: "Outfit";
+    line-height:2.1875em;
+    color: hsl(30, 10%, 34%);
 }
 ol {
-  color: hsl(14, 45%, 36%);
   border-radius: 10px;
   font-family: "Outfit";
-  line-height:25px;
+  line-height:1.5625em;
+  li::marker {color: hsl(14, 45%, 36%); font-weight: 800};
 }
 
 .boxin{
-    padding-left: 30px;
+    padding-left: 3.42857142857142857142857142857142857142857142857142857142857142%;
     background-color:hsl(330, 100%, 98%);
-    padding-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-right: 3.42857142857142857142857142857142857142857142857142857142857142%;
+    margin-top: 2.28571428571428571428571428571428571428571428571428571428571428%;
+    margin-bottom: 2.28571428571428571428571428571428571428571428571428571428571428%;
     border-radius: 10px;
 }
 .boxos{
@@ -79,14 +90,18 @@ ol {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 .boxis{
     width: 50%;
     text-align: left;
+    margin-left: 7%;
 }
+
+.par{
+    color: hsl(14, 45%, 36%)
+}
+
 hr{
-    width: 100.8%;
+    width: 100%;
     opacity: 10%;
 }
